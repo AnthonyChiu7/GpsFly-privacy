@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GPS Fly 隱私權政策</title>
+<style>:root{color-scheme:light dark}body{font:16px/1.7 system-ui,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}th,td{border:1px solid #8884;padding:6px 10px;text-align:left;vertical-align:top}</style>
+</head><body>
+<h1>GPS Fly 隱私權政策</h1>
+<p>最後更新:2026-10-15
+開發者:AnthonyChiu7　聯絡信箱:gpsfly.contact@gmail.com</p>
+<h2>1. App 做什麼</h2>
+<p>GPS Fly 是定位測試與模擬工具:使用者選擇座標後,App 透過 Android 的「模擬位置資訊應用程式」機制提供模擬位置,並可沿指定方向「模擬漫步」。使用者可選擇在漫步時寫入<strong>模擬步數</strong>到 Health Connect。</p>
+<h2>2. 我們存取的資料</h2>
+<table>
+<thead>
+<tr>
+<th>資料</th>
+<th>用途</th>
+<th>儲存位置</th>
+<th>是否傳出裝置</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>使用者輸入或選取的座標、最近使用的地點、釘選的座標與自訂名稱</td>
+<td>提供模擬位置、顯示最近紀錄</td>
+<td>僅存在裝置本機</td>
+<td>否</td>
+</tr>
+<tr>
+<td>搜尋地名時輸入的關鍵字</td>
+<td>查詢座標</td>
+<td>不儲存</td>
+<td>是:送到 OpenStreetMap Nominatim 服務(受其隱私政策約束)</td>
+</tr>
+<tr>
+<td>地圖圖磚請求</td>
+<td>顯示地圖</td>
+<td>快取於本機</td>
+<td>是:向 OpenStreetMap 圖磚伺服器請求,對方可能看到 IP 與檢視區域</td>
+</tr>
+<tr>
+<td>設定值(主題、開關等)</td>
+<td>App 運作</td>
+<td>僅存在裝置本機</td>
+<td>否</td>
+</tr>
+<tr>
+<td><strong>模擬步數(選用,預設關閉)</strong></td>
+<td>漫步時寫入 Health Connect</td>
+<td>由 Health Connect 保存</td>
+<td>否(本 App 不上傳)</td>
+</tr>
+</tbody>
+</table>
+<p>本 App <strong>沒有</strong>帳號系統、<strong>沒有</strong>廣告、<strong>沒有</strong>第三方分析或當機回報 SDK,<strong>不販售、不分享</strong>使用者資料給第三方(上表所列的 OpenStreetMap 請求除外)。</p>
+<h2>3. 模擬步數(Health Connect)</h2>
+<ul>
+<li><strong>預設關閉</strong>。僅在使用者於設定開啟並於系統對話框授權 <code>WRITE_STEPS</code> 後才會寫入;可隨時在設定關閉或到 Health Connect 撤銷。</li>
+<li>只在使用者啟動「模擬漫步」期間寫入,以固定約 <strong>200 步/分鐘</strong>估算,<strong>與使用者真實身體活動無關</strong>。</li>
+<li>只寫入、<strong>不讀取</strong>任何 Health Connect 資料;不寫入距離或其他健康資料。</li>
+<li>寫入的紀錄標示為「手動輸入」,資料來源為本 App,使用者可在 Health Connect 依來源辨識並刪除。</li>
+<li><strong>提醒:模擬步數可能與你的真實步數合併計算,影響其他健身/健康 App 的統計或獎勵。請自行評估後再開啟。</strong> 本 App 不應用於取得保險、獎勵或比賽等不實的健康資料。</li>
+<li>刪除方式:Health Connect → 資料和存取權 → 步數 → GPS Fly → 刪除資料。</li>
+</ul>
+<h2>4. 資料保存與刪除</h2>
+<p>座標、最近紀錄與設定存在本機,解除安裝或於系統設定清除 App 資料即刪除。步數資料由 Health Connect 管理,刪除方式見上節。我們伺服器端沒有任何使用者資料。</p>
+<h2>5. 權限用途</h2>
+<ul>
+<li>模擬位置:需使用者在開發人員選項指定本 App;用於提供模擬座標。</li>
+<li>通知/前景服務:漫步或飛行進行中顯示狀態。</li>
+<li>網路:地名搜尋與地圖。</li>
+<li>Health Connect <code>WRITE_STEPS</code>:選用,見第 3 節。</li>
+</ul>
+<h2>6. 使用限制</h2>
+<p>請勿以本 App 規避第三方服務的條款(例如遊戲反作弊規則)、欺騙他人或取得不當利益。違反第三方條款的後果由使用者自行承擔。</p>
+<h2>7. 兒童</h2>
+<p>本 App 不針對 13 歲以下兒童,也不刻意收集其資料。</p>
+<h2>8. 修改與聯絡</h2>
+<p>政策更新會公布於本頁並更新日期。問題請寄:gpsfly.contact@gmail.com。</p>
+</body></html>
